@@ -1,0 +1,42 @@
+/* WebOS */
+html{
+	font-family: OpenSans;
+	color: #ffffff;
+}
+
+/*Custom Font*/
+@font-face {
+	src: url("../../assets/font/OpenSans/OpenSans-CondLight.ttf") format("truetype");
+	font-family: 'OpenSans';
+	font-weight: normal;
+  font-style: normal;
+	font-size: 20;-size: 20;
+}
+
+:focus { outline: none; }
+
+input[type=text], select{
+	width: 100%;
+  padding: 0px 4px;
+	font-size: 14px;
+	font-family: OpenSans;
+	color: #000000;
+	background-color: white;
+	border: none;
+	box-sizing: border-box;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #202020;
+}
