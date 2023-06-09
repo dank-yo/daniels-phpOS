@@ -38,10 +38,10 @@ $dbname = "Project";
       <ul>
         <li>Window based user interface with moveable UI</li>
         <li>Basic Terminal</li>
-        <li>Basic 'File Explorer'</li>
+        <li>Basic 'File Explorer' (Unimplemented)</li>
         <li>Basic Web Browser</li>
-        <li>Basic Text Editor</li>
-        <li>System Preferences</li>
+        <li>Basic Text Editor (Unimplemented)</li>
+        <li>System Preferences (Unimplemented)</li>
       </ul>
     </div>
 </body>

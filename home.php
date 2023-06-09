@@ -10,7 +10,6 @@ if(empty($user))
 {
   $error = "Error: Unable to fetch user. Try again!";
   $_SESSION["error"] = $error;
-  header("Location:login.php");
 }
 
 ?>
@@ -167,4 +166,3 @@ if(empty($user))
   </script>
 </body>
 </html>
-<?php echo session_id();  ?>
